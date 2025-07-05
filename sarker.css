@@ -29,15 +29,16 @@ body {
 }
 
 .bg-image .bg h1 {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 35px;
 }
 
 .bg p {
     text-align: center;
-    color: white;
-    font-size: small;
+    color: black;
+    font-size: medium;
+    
 }
 
 .hero {
