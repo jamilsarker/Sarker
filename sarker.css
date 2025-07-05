@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    height: 40px;
+    font-size: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bg-image {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.bg-image .bg h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.bg p {
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+    line-height: 1.4;
+}
+
+.hero h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    background-color: #1100ff;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.hero h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hero p {
+    margin: 20px;
+}
+
+.button {
+    background: #1100ff;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgb(127, 127, 127);
+    border-top: 30px solid #1100ff;
+    height: 200px;
+    width: 400px;
+}
+
+.image h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.place-item {
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.place-item img {
+    width: 350px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.place-item p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.requirements h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.requirement-lists {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.requirement-lists ol,
+.requirement-lists ul {
+    list-style-position: inside;
+    padding: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+footer {
+    background-color: #1100ff;
+    color: white;
+    margin-top: 40px;
+    height: 30px;
+    font-size: small;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 10px;
+}
