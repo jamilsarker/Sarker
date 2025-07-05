@@ -18,7 +18,7 @@ body {
 }
 
 .bg-image {
-    background-image: url('bg.jpg');
+    background-image: url('bala.webp');
     background-size: cover;
     height: 400px;
     display: flex;
@@ -110,7 +110,7 @@ body {
     justify-content: center;
 }
 
-.place-item {
+.item {
     width: 400px;
     text-align: center;
     background-color: #fff;
@@ -119,13 +119,13 @@ body {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.place-item img {
+.item img {
     width: 350px;
     height: 200px;
     border-radius: 6px;
 }
 
-.place-item p {
+.item p {
     margin-top: 8px;
     font-weight: bold;
     color: #333;
